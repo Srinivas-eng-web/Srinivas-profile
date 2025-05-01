@@ -1,0 +1,78 @@
+/* Apply full background and center everything */
+body {
+    background-color: lightblue;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Frame styling (box around text) */
+.frame {
+    background: white;
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0px 8px 20px rgba(0,0,0,0.2);
+    text-align: center;
+    max-width: 500px;
+}
+
+/* Text styles inside */
+h1 {
+    font-size: 36px;
+    color: navy;
+    margin-bottom: 10px;
+}
+
+h2 {
+    font-size: 28px;
+    color: darkgreen;
+    margin-bottom: 20px;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    margin: 10px 0;
+}
+
+/* Highlight important words */
+.highlight {
+    color: #4CAF50; /* Green color */
+    font-weight: bold;
+}
+
+/* Download Button */
+.btn {
+    display: inline-block;
+    margin-top: 20px;
+    padding: 12px 24px;
+    background-color: #4CAF50;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+    transition: background-color 0.3s, transform 0.3s;
+}
+
+/* Button hover effect */
+.btn:hover {
+    background-color: #45a049;
+    transform: scale(1.05);
+}
+.open-to-work {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #d35400; /* a strong orange */
+    font-weight: bold;
+}
+
+.open-to-work {
+    margin-top: 30px;
+    font-size: 18px;
+    color: #d35400;
+    font-weight: bold;
+    text-shadow: 0 0 8px rgba(211, 84, 0, 0.4);
+}
+
